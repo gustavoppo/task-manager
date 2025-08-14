@@ -48,5 +48,8 @@ npm install
 # Rodar a aplicação
 ng serve
 
+# Rodar mock json-server
+json-server --watch db.json --port 3000
+
 # Acessar no navegador
 http://localhost:4200
