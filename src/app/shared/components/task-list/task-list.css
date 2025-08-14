@@ -1,0 +1,41 @@
+.task-tag {
+  border-radius: 2rem;
+  padding: 0.25rem 0.75rem;
+  margin-right: 4px;
+  font-weight: 500;
+
+  &.finished {
+    background-color: #d4edda;
+    color: #17a839;
+  }
+
+  &.pending {
+    background-color: #f8d7da;
+    color: #c20f21;
+  }
+
+  &.high {
+    background-color: #f8d7da;
+    color: #c20f21;
+  }
+
+  &.low {
+    background-color: #d4edda;
+    color: #17a839;
+  }
+
+  &.medium {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+}
+
+.grid-task {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.divider {
+  flex: 1;
+}

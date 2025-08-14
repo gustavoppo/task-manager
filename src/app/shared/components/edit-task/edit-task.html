@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>Editing Task - {{ data.title }}</h2>
+<mat-dialog-content class="mat-typography">
+  <tm-task-form
+    [taskToEdit]="data"
+    (saved)="handleTaskSaved($event)"
+  ></tm-task-form>
+</mat-dialog-content>
